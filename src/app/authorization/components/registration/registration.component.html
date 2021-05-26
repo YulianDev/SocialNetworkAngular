@@ -1,0 +1,11 @@
+<div class="registration">
+  <form class="registration_form" [formGroup]="form" (ngSubmit)="registration()">
+    <h1 class="registration_title">Sign up</h1>
+    <input class="registration_input" formControlName="login" placeholder="Create login">
+    <input class="registration_input" formControlName="password" placeholder="Create password">
+    <input class="registration_input" formControlName="name" placeholder="Enter your name">
+    <input class="registration_input" formControlName="age" placeholder="Enter your age">
+    <button class="registration_btn">Sign up</button>
+    <a class="registration_restore" href="#">You have problems?</a>
+  </form>
+</div>
